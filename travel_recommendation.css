@@ -144,3 +144,8 @@ form button {
     color:aliceblue;
     font-size: large;
 }
+
+.recs img {
+    width:260px;
+    height:auto;
+}

@@ -10,7 +10,7 @@ function search(query) {
                 data.beaches.forEach(beach => {
                     const beachRec = document.createElement('div');
                     beachRec.innerHTML = `<h2>${beach.name}</h2>
-                        <img src="${beach.imageUrl} alt="${beach.name}>"
+                        <img src="${beach.imageUrl}" alt="${beach.name}">
                         <p>${beach.description}</p>`;
                     recs.appendChild(beachRec);
                     console.log(`Found beach ${beach.name}`);
@@ -21,7 +21,7 @@ function search(query) {
                 data.temples.forEach(temple => {
                     const templeRec = document.createElement('div');
                     templeRec.innerHTML = `<h2>${temple.name}</h2>
-                        <img src="${temple.imageUrl} alt="${temple.name}>"
+                        <img src="${temple.imageUrl}" alt="${temple.name}">
                         <p>${temple.description}</p>`;
                     recs.appendChild(templeRec);
                     console.log(`Found temple ${temple.name}`);
@@ -34,7 +34,7 @@ function search(query) {
                     country.cities.forEach(city => {
                         const cityRec = document.createElement('div');
                         cityRec.innerHTML = `<h2>${city.name}</h2>
-                            <img src="${city.imageUrl} alt="${city.name}>"
+                            <img src="${city.imageUrl}" alt="${city.name}">
                             <p>${city.description}</p>`;
                         recs.appendChild(cityRec);
                         console.log(`Found city ${city.name}`);
